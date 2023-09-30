@@ -1,7 +1,9 @@
 import React from "react";
 
-const Panel = (props) => {
-  return <div>{props.children}</div>;
+
+
+const Panel =  ({ className, ...props })  => {
+  return <div className={className}>{props.children}</div>;
 };
 
 export default Panel;
