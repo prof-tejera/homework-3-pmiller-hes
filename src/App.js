@@ -3,8 +3,15 @@ import LoginForm from "LoginForm/LoginForm";
 import Pager from "Pager/Pager";
 import RadioButtons from "RadioButtons/RadioButtons";
 import "./App.css";
+import { useState } from "react";
 
 const App = () => {
+  const [currentPage, setCurrentPage] = useState(1);
+ 
+  const pagerPageChanged = (newPage) => {
+    setCurrentPage(newPage);
+  };
+
   return (
     <div>
       <div className="App-component">
@@ -24,9 +31,9 @@ const App = () => {
       </div>
 
       <div className="App-component">
-        <header className="App-header">Pager component (TODO)</header>
+        <header className="App-header">Pager component: Current Page {currentPage}</header>
         <div className="App-content">
-          <Pager />
+          <Pager pages={20} maxPagesToDisplay={5} onPageChange={pagerPageChanged} />
         </div>
       </div>
 

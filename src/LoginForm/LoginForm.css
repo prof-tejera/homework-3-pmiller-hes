@@ -1,8 +1,7 @@
 .loginPanel {
-    width: 400px;
-    border: 1px solid gray;
+    border: 1px solid #eee;
     border-radius: 5px;
-    box-shadow: 1px 2px lightgray;
+    box-shadow: 2px 3px lightgray;
 }
 
 

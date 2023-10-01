@@ -1,0 +1,52 @@
+.pagerPanel {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 2px 3px lightgray;
+
+    padding: 15px;
+}
+
+.pager-button {
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+    font-size: 16px;
+    padding: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color:lightgray;
+    background-color: white;
+  }
+
+  .pager-nav-button {
+    color: lightgray;
+    background-color: rgb(242, 243, 242);
+  }
+
+  .pager-button-active {
+    background-color: rgb(17, 81, 165);
+  }
+  
+  .pager-button:hover {
+    background-color: rgb(71, 145, 241);
+  }
+  
+  .pager-ellipsis {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  
+    font-size: 16px;
+    padding: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color:lightgray;
+    background-color: white;
+  }
