@@ -1,0 +1,99 @@
+
+.default-inputField {
+    font-size: 16px;
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.default-inputIcon {
+    color: lightgray;
+    font-size: 20px;
+    padding: 15px;
+    float: left;
+    margin-right: 6px;
+    margin-top: -52px;
+    position: relative;
+    z-index: 2;
+}
+
+.default-passEyeIcon {
+    color: lightgray;
+    font-size: 20px;
+    float: right;
+    margin-right: 10px;
+    margin-top: -35px;
+    position: relative;
+    z-index: 2;
+}
+
+.default-inputField :active {
+    border: 2px solid rgb(17, 81, 165);
+}
+
+/*
+Checkbox CSS Acknowledgement: https://www.w3schools.com/howto/howto_css_custom_checkbox.asp
+*/
+.default-checkboxLabel {
+    display: block;
+    color: gray;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .default-checkboxLabel input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .default-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: lightgray;
+  }
+  
+  .default-checkboxLabel:hover input ~ .default-checkmark {
+    background-color: rgb(71, 145, 241);
+  }
+  
+  .default-checkboxLabel input:checked ~ .default-checkmark {
+    background-color: rgb(17, 81, 165);
+
+  }
+
+  .default-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .default-checkboxLabel input:checked ~ .default-checkmark:after {
+    display: block;
+  }
+  
+  .default-checkboxLabel .default-checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }

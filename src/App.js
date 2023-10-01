@@ -19,7 +19,7 @@ const App = () => {
       <div className="App-component">
         <header className="App-header">Login form component</header>
         <div className="App-content">
-          <LoginForm />
+          <LoginForm header="Welcome"/>
         </div>
       </div>
 

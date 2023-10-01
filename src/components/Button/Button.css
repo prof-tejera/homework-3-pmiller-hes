@@ -1,6 +1,5 @@
 .Default-button {
 
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -17,9 +16,9 @@
 }
 
 .Default-button-active {
-  background-color: rgb(71, 145, 241);
+  background-color: rgb(17, 81, 165);
 }
 
 .Default-button:hover {
-  background-color: rgb(17, 81, 165);
+  background-color: rgb(71, 145, 241);
 }

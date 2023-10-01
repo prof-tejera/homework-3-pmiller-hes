@@ -1,0 +1,16 @@
+
+.default-form {
+    margin: 25px;
+    display: block;  
+}
+
+.default-formRow {
+    padding-top: 25px;
+}
+
+.default-heading {
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
