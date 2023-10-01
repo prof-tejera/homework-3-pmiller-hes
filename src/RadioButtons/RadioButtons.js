@@ -3,7 +3,7 @@ import "./RadioButtons.css";
 import Panel from "components/Panel/Panel";
 import { useState } from "react";
 
-const RadioButtons = ({style = "radio", className, options, groupName = "groupA", onOptionhange}) => {
+const RadioButtons = ({displayStyle = "radio", className, options, groupName = "groupA", onOptionhange}) => {
   const [currentSelectedOption, setCurrentSelectedOption] = useState({label: '', value: ''});
 
   const optionSelected = (option) => { 
@@ -14,14 +14,14 @@ const RadioButtons = ({style = "radio", className, options, groupName = "groupA"
   }
 
   return (
-    <Panel className={"default-"+style+"button-panel " + className}>
+    <Panel className={"default-"+displayStyle+"button-panel " + className}>
       {options.map((option, i) => (
         <RadioButtonInput           
           key={i} 
           labelText={option.label} 
           value={option.value}
           groupName={groupName} 
-          style={style}
+          displayStyle={displayStyle}
           isActive={currentSelectedOption.value === option.value}
           onClick={() => optionSelected(option)}
         />

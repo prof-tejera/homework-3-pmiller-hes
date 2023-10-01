@@ -90,7 +90,7 @@ const App = () => {
             <FormRow><FormLabel label="Fruit:" text={currentFruitOption.label}></FormLabel></FormRow>
             <FormRow>
               <RadioButtons 
-              style="button"
+              displayStyle="button"
               options={[
                 { label: 'Apple', value: 'apple' },
                 { label: 'Pear', value: 'pear' },
