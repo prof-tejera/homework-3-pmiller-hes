@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.80bb4c4e.css",
-    "main.js": "/static/js/main.e6dbdc88.js",
-    "index.html": "/index.html",
-    "main.80bb4c4e.css.map": "/static/css/main.80bb4c4e.css.map",
-    "main.e6dbdc88.js.map": "/static/js/main.e6dbdc88.js.map"
+    "main.css": "/homework-3-pmiller-hes/static/css/main.80bb4c4e.css",
+    "main.js": "/homework-3-pmiller-hes/static/js/main.e6dbdc88.js",
+    "index.html": "/homework-3-pmiller-hes/index.html",
+    "main.80bb4c4e.css.map": "/homework-3-pmiller-hes/static/css/main.80bb4c4e.css.map",
+    "main.e6dbdc88.js.map": "/homework-3-pmiller-hes/static/js/main.e6dbdc88.js.map"
   },
   "entrypoints": [
     "static/css/main.80bb4c4e.css",
