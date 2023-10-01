@@ -14,3 +14,18 @@
     font-weight: bold;
     text-align: center;
 }
+
+.default-label-container
+{
+
+}
+.default-label {
+    font-weight: bold;
+    color: orangered;
+    font-size: 20px;
+}
+.default-label-text{
+    padding-left:10px;
+    font-size: 20px;
+    color:gray
+}
