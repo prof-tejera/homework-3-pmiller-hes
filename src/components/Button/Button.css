@@ -1,18 +1,22 @@
 .Default-button {
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
+
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+
+  font-size: 16px;
+  padding: 20px;
   font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: orangered;
+  color:white;
 }
 
 .Default-button-active {
-  background-color: rgb(71, 145, 241);
+  background-color: rgb(17, 81, 165);
 }
 
 .Default-button:hover {

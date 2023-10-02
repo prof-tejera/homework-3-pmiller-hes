@@ -1,0 +1,7 @@
+.default-radiobutton-panel {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 2px 3px lightgray;
+    margin: 15px;
+    padding: 15px;
+}

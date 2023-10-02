@@ -1,0 +1,13 @@
+
+.default-errorBar-visible {
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.default-errorBar-hidden {
+    visibility: collapse;
+}

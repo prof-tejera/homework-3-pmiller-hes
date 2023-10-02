@@ -1,0 +1,19 @@
+.loginPanel {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 2px 3px lightgray;
+}
+
+
+.help-hidden {
+    visibility: hidden;
+}
+
+.help-visible {
+    visibility: visible;
+}
+
+
+.buttonAlignRight {
+    text-align: right;
+ }
