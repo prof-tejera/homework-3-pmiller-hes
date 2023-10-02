@@ -80,7 +80,7 @@ const App = () => {
               options={[
                 { label: 'French Fries', value: 'fries' },
                 { label: 'Sweet Potato Tots', value: 'sptots' },
-                { label: 'Bake Beans', value: 'beans' }
+                { label: 'Baked Beans', value: 'beans' }
               ]}
               groupName="sideOptions" 
               onOptionhange={sideOptionSelectedChanged}
